@@ -1,73 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Sederhana</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Contoh Tata Letak HTML</title>
+    <style>
+        /* CSS untuk mengatur tata letak */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        .content {
+            float: left;
+            width: 70%;
+            padding: 20px;
+        }
+
+        .sidebar {
+            float: right;
+            width: 30%;
+            padding: 20px;
+            background-color: #eee;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            clear: both;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Memulai dengan HTML</h1>
+        <h1>PROGATE Tata Letak</h1>
     </header>
-
     <nav>
         <ul>
-            <li><a href="#judul-paragraf">Judul dan Paragraf</a></li>
-            <li><a href="#tautan">Tautan</a></li>
-            <li><a href="#gambar">Gambar</a></li>
-            <li><a href="#daftar">Daftar (List)</a></li>
-            <li><a href="#memulai-css">Memulai dengan CSS</a></li>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Tentang Kami</a></li>
+            <li><a href="#">Layanan</a></li>
+            <li><a href="#">Kontak</a></li>
         </ul>
     </nav>
-
-    <section id="judul-paragraf">
-        <h2>Judul dan Paragraf</h2>
-        <p>Ini adalah contoh judul dan paragraf dalam HTML.</p>
-    </section>
-
-    <section id="tautan">
-        <h2>Tautan</h2>
-        <p>Ini adalah <a href="#">contoh tautan</a> dalam HTML.</p>
-    </section>
-
-    <section id="gambar">
-        <h2>Gambar</h2>
-        <img src="gambar.jpg" alt="Contoh Gambar">
-    </section>
-
-    <section id="daftar">
-        <h2>Daftar (List)</h2>
-        <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-        </ul>
-    </section>
-
-    <section id="memulai-css">
-        <h1>Memulai dengan CSS</h1>
-        <h2>Warna</h2>
-        <p style="color: blue;">Ini adalah teks dengan warna biru.</p>
-
-        <h2>Ukuran Font dan Jenis Font</h2>
-        <p style="font-size: 18px; font-family: Arial, sans-serif;">Ini adalah teks dengan ukuran font 18px dan jenis font Arial.</p>
-
-        <h2>Lebar, Tinggi, dan Warna Latar Belakang</h2>
-        <div style="width: 300px; height: 200px; background-color: lightgray;"></div>
-
-        <h2>Class</h2>
-        <p class="custom-class">Ini adalah teks dengan class CSS kustom.</p>
-
-        <h2>Dasar Layout (Tata Letak)</h2>
-        <div class="container">
-            <div class="sidebar">Sidebar</div>
-            <div class="content">Content</div>
+    <div class="container">
+        <div class="content">
+            <h2>Selamat datang di PROGATE</h2>
+            <p>Ini adalah contoh tata letak dasar menggunakan HTML dan CSS sesuai dengan PROGATE.</p>
         </div>
-    </section>
-
+        <div class="sidebar">
+            <h3>Menu Samping</h3>
+            <ul>
+                <li><a href="#">Menu 1</a></li>
+                <li><a href="#">Menu 2</a></li>
+                <li><a href="#">Menu 3</a></li>
+            </ul>
+        </div>
+    </div>
     <footer>
-        <p>&copy; 2023 Website Sederhana</p>
+        <p>Hak Cipta &copy; 2023 PROGATE</p>
     </footer>
 </body>
 </html>
+
