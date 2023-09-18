@@ -1,98 +1,63 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Contoh Tata Letak HTML</title>
-    <style>
-        /* CSS untuk mengatur tata letak */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f2f2f2;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-
-        nav {
-            background-color: #444;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-        }
-
-        .content {
-            float: left;
-            width: 70%;
-            padding: 20px;
-        }
-
-        .sidebar {
-            float: right;
-            width: 30%;
-            padding: 20px;
-            background-color: #eee;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            clear: both;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>PROGATE Tata Letak</h1>
-    </header>
-    <nav>
+  <head>
+    <meta charset="utf-8">
+    <title>Progate</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-logo">Progate</div>
+      <div class="header-list">
         <ul>
-            <li><a href="#">Beranda</a></li>
-            <li><a href="#">Tentang Kami</a></li>
-            <li><a href="#">Layanan</a></li>
-            <li><a href="#">Kontak</a></li>
+          <li>Tentang</li>
+          <li>Pelajaran</li>
+          <li>Hubungi Kami</li>
         </ul>
-    </nav>
-    <div class="container">
-        <div class="content">
-            <h2>Selamat datang di PROGATE</h2>
-            <p>Ini adalah contoh tata letak dasar menggunakan HTML dan CSS sesuai dengan PROGATE.</p>
-        </div>
-        <div class="sidebar">
-            <h3>Menu Samping</h3>
-            <ul>
-                <li><a href="#">Menu 1</a></li>
-                <li><a href="#">Menu 2</a></li>
-                <li><a href="#">Menu 3</a></li>
-            </ul>
-        </div>
+      </div>
     </div>
-    <footer>
-        <p>Hak Cipta &copy; 2023 PROGATE</p>
-    </footer>
-</body>
+
+    <div class="main">
+      <div class="copy-container">
+        <h1>HELLO WORLD<span>.</span></h1>
+        <h2>Ayo belajar coding</h2>
+      </div>
+      
+      <div class="contents">
+        <h3 class="section-title">Pelajaran</h3>
+        <div class="contents-item">
+          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/html.svg">
+          <p>HTML & CSS</p>
+        </div>
+        <div class="contents-item">
+          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/php.svg">
+          <p>PHP</p>
+        </div>
+        <div class="contents-item">
+          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/ruby.svg">
+          <p>Ruby</p>
+        </div>
+        <div class="contents-item">
+          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/swift.svg">
+          <p>Swift</p>
+        </div>
+      </div>
+      
+      <div class="contact-form">
+        
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-logo">Progate</div>
+      <div class="footer-list">
+        <ul>
+          <li>Tentang</li>
+          <li>Karier</li>
+          <li>Hubungi Kami</li>
+        </ul>
+      </div>
+    </div>
+  </body>
 </html>
 
